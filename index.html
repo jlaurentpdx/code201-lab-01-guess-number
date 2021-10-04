@@ -15,24 +15,24 @@
 <body>
     <header><h1>Guess a Number!</h1></header>
     <main>
-        <section id="prompt">
+        <section id="user-prompt">
             <p>Can you correctly guess a number between 
                 <strong>1 and 20</strong>... 
                 <br>with only 
                 <em>four guesses</em>?
                 <br>Try your luck!
-            </p> <!-- User prompt ends -->
+            </p> 
         </section>
-        <section id="input">
-            <input type="number" id="user-guess-input" placeholder="Enter 1-20">
+        <section id="user-input">
+            <input type="number" id="user-guess" min="1" max ="20" step="1" placeholder="Enter 1-20">
             <button id="guess-button">Guess!</button>
         </section>
         <section id="results-display">
             <p>Your previous guesses: 
-                <span id="guess-1" class="prev-guesses">No guesses yet.</span>
-                <span id="guess-2" class="prev-guesses"></span>
-                <span id="guess-3" class="prev-guesses"></span>
-                <span id="guess-4" class="prev-guesses"></span>
+                <span id="prev-guess-1" class="prev-guesses">No guesses yet.</span>
+                <span id="prev-guess-2" class="prev-guesses"></span>
+                <span id="prev-guess-3" class="prev-guesses"></span>
+                <span id="prev-guess-4" class="prev-guesses"></span>
                 <br>
                 Result: <span id="guess-result">I'm waiting...</span>
                 <br>
