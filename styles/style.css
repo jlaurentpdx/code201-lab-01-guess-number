@@ -1,0 +1,5 @@
+/* hide retry button on start */
+
+#retry-button {
+    display: none;
+}
