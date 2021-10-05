@@ -1,7 +1,7 @@
 body {
     background-image: url(../assets/d20_background.jpg);
     font-family: 'Cinzel', serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     color: whitesmoke;
 }
@@ -23,13 +23,25 @@ footer {
 
 input {
     font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    text-align: center;
     width: 150px;
 }
 
 button {
     font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
 }
 
 #retry-button {
     display: none;
+}
+
+#prompt {
+    font-size: 1.3rem;
+}
+
+.prev-guesses {
+    color: red;
+    text-decoration: line-through;
 }

@@ -19,11 +19,11 @@
     <header><h1>Saving Throw...?</h1></header>
     <main>
         <section>
-            <p>
+            <p id="prompt">
                 Your new DM is... not great. Not the best. They've decided it would be "fun" to...
                 <br> make you guess at your roll for survival. Yep.
                 <strong>Have a guess between 1 and 20</strong>. 
-                <br>If you guess correctly, you survive. Else, well... maybe put a few extra points into Luck in the next campaign.
+                <br>If you guess correctly, you survive. Else, well... put a few extra points into Luck in the next campaign.
                 <br>You have <em>four guesses</em>.
             </p> 
         </section>
@@ -32,16 +32,16 @@
             <button id="guess-button">Roll Call</button>
             <button id="retry-button">Play Again?</button>
         </section>
-        <section id="results-display">
+        <section>
             <p>Your previous guesses: 
-                <span id="prev-guess-1" class="prev-guesses">No guesses yet.</span>
+                <span id="prev-guess-1" class="prev-guesses"></span>
                 <span id="prev-guess-2" class="prev-guesses"></span>
                 <span id="prev-guess-3" class="prev-guesses"></span>
                 <span id="prev-guess-4" class="prev-guesses"></span>
                 <br>
                 Result: <span id="guess-result">I'm waiting...</span>
                 <br>
-                You have <span id="guesses-remaining">4</span> guesses remaining.
+                Remaining guesses: <span id="guesses-remaining">4</span>
             </p>
         </section>
     </main>
