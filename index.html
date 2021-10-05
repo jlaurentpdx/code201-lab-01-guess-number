@@ -9,23 +9,27 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <title>Guess a Number: Roll Call</title>
 </head>
 
 <body>
-    <header><h1>Guess a Number!</h1></header>
+    <header><h1>Saving Throw...?</h1></header>
     <main>
-        <section id="user-prompt">
-            <p>Can you correctly guess a number between 
-                <strong>1 and 20</strong>... 
-                <br>with only 
-                <em>four guesses</em>?
-                <br>Try your luck!
+        <section>
+            <p>
+                Your new DM is... not great. Not the best. They've decided it would be "fun" to...
+                <br> make you guess at your roll for survival. Yep.
+                <strong>Have a guess between 1 and 20</strong>. 
+                <br>If you guess correctly, you survive. Else, well... maybe put a few extra points into Luck in the next campaign.
+                <br>You have <em>four guesses</em>.
             </p> 
         </section>
-        <section id="input-section">
+        <section>
             <input type="number" id="user-input" min="1" max ="20" step="1" placeholder="Enter 1-20">
-            <button id="guess-button">Guess!</button>
+            <button id="guess-button">Roll Call</button>
             <button id="retry-button">Play Again?</button>
         </section>
         <section id="results-display">

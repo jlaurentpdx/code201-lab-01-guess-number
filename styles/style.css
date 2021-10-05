@@ -1,4 +1,34 @@
-/* hide retry button on start */
+body {
+    background-image: url(../assets/d20_background.jpg);
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 50px 0 50px 0;
+}
+
+footer {
+    font-size: 1rem;
+    padding: 20px;
+    text-align: right;
+    bottom: 0;
+    width: 100%;
+}
+
+input {
+    font-family: 'Cinzel', serif;
+    width: 150px;
+}
+
+button {
+    font-family: 'Cinzel', serif;
+}
 
 #retry-button {
     display: none;
